@@ -233,12 +233,12 @@ This demonstrates database-level analytical capability.
 
 This project demonstrates:
 
-✔ Statistical modeling expertise  
-✔ Regression analysis  
-✔ Assumption validation  
-✔ ROI evaluation  
-✔ Business dashboard development  
-✔ Strategic marketing insight generation  
+1. Statistical modeling expertise  
+2. Regression analysis  
+3. Assumption validation  
+4. ROI evaluation  
+5. Business dashboard development  
+6. Strategic marketing insight generation  
 
 The results highlight the importance of data-driven marketing decisions and efficient capital allocation across advertising channels.
 
