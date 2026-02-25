@@ -38,7 +38,7 @@ EDA was performed to understand data distribution, relationships, and suitabilit
 
 ##  3.1 Sales Distribution Analysis
 
-![Sales Distribution](images/sales_distribution.png)
+![Sales Distribution](/sales_distribution.png)
 
 The distribution of Sales appears approximately normal with no extreme skewness or heavy tails. This indicates:
 
@@ -52,7 +52,7 @@ A near-normal distribution supports regression assumption validity.
 
 ##  3.2 Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](/correlation_heatmap.png)
 
 The correlation matrix shows:
 
@@ -66,7 +66,7 @@ This indicates that increases in TV and Radio spending are strongly associated w
 
 ##  3.3 Pairplot Relationship Analysis
 
-![Pairplot](images/pairplot.png)
+![Pairplot](/pairplot.png)
 
 The pairplot visually confirms:
 
@@ -101,7 +101,7 @@ The model explains approximately 89% of the variation in Sales. This indicates t
 
 ##  4.2 Channel Coefficient Impact
 
-![Channel Impact](images/channel_impact.png)
+![Channel Impact](/channel_impact.png)
 
 Coefficient interpretation:
 
@@ -121,7 +121,7 @@ Regression assumptions were validated to ensure model reliability.
 
 ## 5.1 Residual Distribution
 
-![Residual Distribution](images/residual_distribution.png)
+![Residual Distribution](/residual_distribution.png)
 
 Residuals appear approximately normally distributed.
 
@@ -132,7 +132,7 @@ The normality assumption is reasonably satisfied, supporting statistical inferen
 
 ## 5.2 Residuals vs Predicted Plot
 
-![Residual vs Predicted](images/residual_vs_predicted.png)
+![Residual vs Predicted](/residual_vs_predicted.png)
 
 Residuals show random dispersion with no visible pattern.
 
@@ -143,7 +143,7 @@ The linearity assumption holds. There is no systematic bias in predictions.
 
 ##  5.3 Homoscedasticity Check
 
-![Homoscedasticity Check](images/homoscedasticity_check.png)
+![Homoscedasticity Check](/Homoscedasticity_Check.png)
 
 The spread of residuals remains relatively constant across predicted values.
 
