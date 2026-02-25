@@ -1,6 +1,8 @@
- Marketing Mix Modeling for Sales Optimization 
+# Marketing Mix Modeling for Sales Optimization
 
-# 📌 1. Project Objective
+
+
+# 1. Project Objective
 
 The objective of this project is to quantitatively evaluate the impact of different marketing channels (TV, Radio, Newspaper) on product sales and derive data-driven recommendations for optimal budget allocation.
 
@@ -13,9 +15,9 @@ Organizations often invest heavily in multiple advertising channels without clea
 
 This project demonstrates a complete analytics workflow from data exploration to business insight generation.
 
----
 
-# 📁 2. Dataset Overview
+
+# 2. Dataset Overview
 
 The dataset consists of 200 observations with the following variables:
 
@@ -26,15 +28,15 @@ The dataset consists of 200 observations with the following variables:
 
 Each record represents marketing investment and corresponding sales performance.
 
----
 
-# 📈 3. Exploratory Data Analysis (EDA)
+
+# 3. Exploratory Data Analysis (EDA)
 
 EDA was performed to understand data distribution, relationships, and suitability for regression modeling.
 
----
 
-## 🔹 3.1 Sales Distribution Analysis
+
+##  3.1 Sales Distribution Analysis
 
 ![Sales Distribution](images/sales_distribution.png)
 
@@ -46,9 +48,9 @@ The distribution of Sales appears approximately normal with no extreme skewness 
 
 A near-normal distribution supports regression assumption validity.
 
----
 
-## 🔹 3.2 Correlation Heatmap
+
+##  3.2 Correlation Heatmap
 
 ![Correlation Heatmap](images/correlation_heatmap.png)
 
@@ -60,9 +62,9 @@ The correlation matrix shows:
 
 This indicates that increases in TV and Radio spending are strongly associated with increases in Sales, whereas Newspaper spending does not show a strong linear relationship with Sales.
 
----
 
-## 🔹 3.3 Pairplot Relationship Analysis
+
+##  3.3 Pairplot Relationship Analysis
 
 ![Pairplot](images/pairplot.png)
 
@@ -74,9 +76,9 @@ The pairplot visually confirms:
 
 This visualization reinforces the correlation findings and supports selection of TV and Radio as significant predictors.
 
----
 
-# 📊 4. Regression Modeling
+
+#  4. Regression Modeling
 
 A Multiple Linear Regression model was developed:
 
@@ -84,9 +86,9 @@ Sales = β₀ + β₁(TV) + β₂(Radio) + β₃(Newspaper)
 
 This model estimates the independent effect of each channel on Sales while holding other variables constant.
 
----
 
-## 🔹 4.1 Model Performance
+
+##  4.1 Model Performance
 
 - R² ≈ 0.89
 - Adjusted R² ≈ High explanatory power
@@ -95,9 +97,9 @@ Interpretation:
 
 The model explains approximately 89% of the variation in Sales. This indicates that marketing spend across the three channels significantly drives sales performance.
 
----
 
-## 🔹 4.2 Channel Coefficient Impact
+
+##  4.2 Channel Coefficient Impact
 
 ![Channel Impact](images/channel_impact.png)
 
@@ -109,15 +111,15 @@ Coefficient interpretation:
 
 This suggests that Radio advertising is the most efficient channel in generating incremental revenue.
 
----
 
-# 📉 5. Model Diagnostics and Assumption Testing
+
+# 5. Model Diagnostics and Assumption Testing
 
 Regression assumptions were validated to ensure model reliability.
 
 ---
 
-## 🔹 5.1 Residual Distribution
+## 5.1 Residual Distribution
 
 ![Residual Distribution](images/residual_distribution.png)
 
@@ -126,9 +128,9 @@ Residuals appear approximately normally distributed.
 Implication:
 The normality assumption is reasonably satisfied, supporting statistical inference validity.
 
----
 
-## 🔹 5.2 Residuals vs Predicted Plot
+
+## 5.2 Residuals vs Predicted Plot
 
 ![Residual vs Predicted](images/residual_vs_predicted.png)
 
@@ -137,9 +139,9 @@ Residuals show random dispersion with no visible pattern.
 Implication:
 The linearity assumption holds. There is no systematic bias in predictions.
 
----
 
-## 🔹 5.3 Homoscedasticity Check
+
+##  5.3 Homoscedasticity Check
 
 ![Homoscedasticity Check](images/homoscedasticity_check.png)
 
@@ -148,9 +150,9 @@ The spread of residuals remains relatively constant across predicted values.
 Implication:
 The homoscedasticity assumption is satisfied. Variance is stable across prediction range.
 
----
 
-# 📊 6. Excel Business Intelligence Dashboard
+
+#  6. Excel Business Intelligence Dashboard
 
 An executive-level dashboard was developed in Excel to communicate insights visually.
 
@@ -164,9 +166,9 @@ The dashboard includes:
 - Marketing Mix Distribution
 - Spend Segmentation Analysis
 
----
 
-## 🔹 6.1 Marketing Mix Distribution
+
+## 6.1 Marketing Mix Distribution
 
 The pie chart indicates:
 
@@ -175,9 +177,9 @@ The pie chart indicates:
 
 This suggests a heavy budget concentration on TV.
 
----
 
-## 🔹 6.2 Channel ROI Comparison
+
+##  6.2 Channel ROI Comparison
 
 ROI analysis reveals:
 
@@ -187,9 +189,9 @@ ROI analysis reveals:
 
 This indicates potential budget reallocation opportunity toward higher-efficiency channels.
 
----
 
-## 🔹 6.3 Spend Segmentation Analysis
+
+##  6.3 Spend Segmentation Analysis
 
 Sales performance was analyzed across different levels of TV spend (High, Medium, Low).
 
@@ -200,9 +202,9 @@ Findings show:
 
 This supports strategic TV investment optimization rather than reduction.
 
----
 
-# 📌 7. SQL Analysis
+
+#  7. SQL Analysis
 
 SQL was used to perform:
 
@@ -215,9 +217,9 @@ SQL was used to perform:
 
 This demonstrates database-level analytical capability.
 
----
 
-# 💡 8. Strategic Business Recommendations
+
+#  8. Strategic Business Recommendations
 
 1. Increase allocation toward Radio due to highest marginal contribution and ROI.
 2. Maintain optimized TV strategy given strong correlation with Sales.
@@ -225,9 +227,9 @@ This demonstrates database-level analytical capability.
 4. Implement ongoing regression-based monitoring of campaign performance.
 5. Transition toward data-driven marketing allocation strategy.
 
----
 
-# 🏁 9. Conclusion
+
+#  9. Conclusion
 
 This project demonstrates:
 
@@ -240,9 +242,4 @@ This project demonstrates:
 
 The results highlight the importance of data-driven marketing decisions and efficient capital allocation across advertising channels.
 
----
 
-# 👩‍💻 Author
-
-Archika Kushwaha  
-Aspiring Data Analyst
